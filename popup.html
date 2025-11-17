@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>YouTube Summarizer</title>
+<style>
+/* Simple sleek UI */
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; margin: 0; width: 420px; }
+header { background: linear-gradient(90deg,#4f46e5,#06b6d4); color: white; padding: 12px; display:flex; gap:8px; align-items:center }
+header h1 { font-size:16px; margin:0 }
+main { padding: 12px; }
+#status { font-size:12px; color:#555; margin-bottom:8px }
+#chat { height: 360px; border:1px solid #eee; padding:8px; overflow:auto; border-radius:8px; background: #fff }
+.msg { margin:6px 0; }
+.user { text-align:right }
+.bot { text-align:left }
+.bubble { display:inline-block; padding:8px 10px; border-radius:12px; max-width:85%; }
+.user .bubble { background:#e6fffa }
+.bot .bubble { background:#f1f5f9 }
+#controls { display:flex; gap:8px; margin-top:8px }
+input[type='text'] { flex:1; padding:8px; border-radius:8px; border:1px solid #ddd }
+button { padding:8px 12px; border-radius:8px; border: none; background:#4f46e5; color:white }
+.small { font-size:12px; color:#666 }
+</style>
+</head>
+<body>
+<header>
+<img src="icons/icon48.png" width="28" height="28" alt="logo"/>
+<div>
+<h1>YouTube Summarizer</h1>
+<div class="small">AI-powered quick summaries and Q&A</div>
+</div>
+</header>
+
+
+<main>
+<div id="status">Detecting video...</div>
+<div id="chat"></div>
+<div id="controls">
+<input id="queryInput" type="text" placeholder="Ask something about the video..." />
+<button id="sendBtn">Ask</button>
+</div>
+</main>
+
+
+<script src="popup.js"></script>
+</body>
+</html>
