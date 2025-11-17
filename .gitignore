@@ -34,3 +34,8 @@ node_modules/
 # Temporary files
 *.tmp
 temp/
+
+vectorstores/
+*/vectorstores/
+*.faiss
+*.json
