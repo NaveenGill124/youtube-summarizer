@@ -43,6 +43,26 @@ Full architecture diagram & explanation:
 
 ---
 
+## 📸 Screenshots
+
+### 🔹 Extension Icon in Chrome
+![Chrome Icon](screenshots/extension_1.png)
+
+### 🔹 Detected video ID
+![Overlay UI](screenshots/extension_2.png)
+
+### 🔹 Asking Question
+![Summary UI](screenshots/extension_3.png)
+
+### 🔹 Backend Running
+![Backend Running](screenshots/extension_4.png)
+
+### 🔹 System Architecture Diagram
+![Architecture](screenshots/architecture_youtube_summarizer.png)
+
+
+---
+
 # 🚀 Technology Stack
 
 ### **Frontend (Chrome Extension)**
